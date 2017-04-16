@@ -1,6 +1,6 @@
 {
   "require" : {
-    "Mockery/Mockery" : ">=0.7.2"
+    "Mockery/Mockery" : "*"
   },
   "require-dev": { "phpunit/phpunit": "*" },
   "autoload": {

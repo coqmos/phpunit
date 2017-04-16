@@ -35,7 +35,7 @@ class BaseballApiTest extends PHPUnit_Framework_TestCase
 
     public function testMockery(){
         $someVal = true;
-         $mockeryMock = new \Mockery\Mock('BaseballApi');
+        $mockeryMock = new \Mockery\Mock('BaseballApi');
         $mockeryMock->shouldReceive('submitAtBat')->with('1','bh')->once()->andReturn($someVal);
         $this->assertEquals($someVal, $this->instance->submitAtBat('1','bh'));
     }
